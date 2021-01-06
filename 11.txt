@@ -1,0 +1,35 @@
+版本控制工具：git  SVN（小乌龟）
+
+版本控制工具：
+    分布式的版本控制工具，适合多人协作开发，随时能前进和后退版本
+    创建分支、合并分支、删除分支、解决冲突、版本回退等
+
+
+代码保存到github上：【OS码云、gitlab】 代码托管平台
+    可视化的一个仓库网站，可以看到所有代码
+
+配置秘钥：
+    生成秘钥：ssh-keygen -t rsa -C "你的邮箱地址"
+配置用户信息：
+    配置用户名：git config --global user.name "zimogod"
+    配置用户邮箱：git config --global user.email "上午注册时的邮箱"
+
+查看命令：git config --list
+
+
+git常用命令：初次
+    查看当前代码提交的状态：git status  
+    初始化仓库：git init
+    将本地文件添加到工作区：git add .
+    将工作区文件推送到暂存区：git commit -m "提交信息"
+    新创建的仓库和本地代码建立联系【只用一次】：git remote add origin 当前仓库地址
+    将暂存区代码推送到远程仓库：git push -u origin master 【首次推送】，之后都用git push即可
+
+
+之后git操作：
+    1、git add .
+    2、git commit -m "提交信息"
+    3、git push  
+ 
+    
+    git status
